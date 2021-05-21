@@ -1,17 +1,24 @@
 {
   "name": "tailwind-view-component-example",
   "private": true,
+  "scripts": {
+    "storybook": "start-storybook",
+    "storybook:build": "build-storybook -o public/_storybook"
+  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "5.4.0",
+    "postcss-modules": "^4.0.0",
     "turbolinks": "^5.2.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@storybook/addon-controls": "^6.2.9",
+    "@storybook/server": "^6.2.9",
     "webpack-dev-server": "^3.11.2"
   }
 }

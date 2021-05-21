@@ -78,6 +78,7 @@ GEM
     childprocess (3.0.0)
     concurrent-ruby (1.1.8)
     crass (1.0.6)
+    dry-initializer (3.0.4)
     erubi (1.10.0)
     ffi (1.15.0)
     globalid (0.4.2)
@@ -144,6 +145,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.1.1)
+    ruby-next-core (0.12.0)
     rubyzip (2.3.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -175,6 +177,13 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    view_component (2.32.0)
+      activesupport (>= 5.0.0, < 7.0)
+    view_component-contrib (0.1.0)
+      ruby-next-core (>= 0.12.0)
+      view_component
+    view_component_storybook (0.8.0)
+      view_component (>= 2.2)
     web-console (4.1.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -203,6 +212,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
+  dry-initializer (~> 3.0)
   jbuilder (~> 2.7)
   listen (~> 3.3)
   puma (~> 5.0)
@@ -214,6 +224,9 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
+  view_component (~> 2.32)
+  view_component-contrib (~> 0.1.0)
+  view_component_storybook (~> 0.8.0)
   web-console (>= 4.1.0)
   webdrivers
   webpacker (~> 5.0)
