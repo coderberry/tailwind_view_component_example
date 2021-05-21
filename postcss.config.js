@@ -16,6 +16,7 @@ module.exports = {
       getJSON: () => { }
     }),
 
+    require("tailwindcss"),
     require('postcss-import'),
     require('postcss-flexbugs-fixes'),
     require('postcss-preset-env')({

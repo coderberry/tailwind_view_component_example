@@ -10,7 +10,10 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "5.4.0",
-    "postcss-modules": "^4.0.0",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "postcss-modules": "^3.2.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2",
     "turbolinks": "^5.2.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
